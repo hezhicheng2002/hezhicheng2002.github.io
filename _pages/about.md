@@ -21,4 +21,4 @@ Here is my research proposal recently: [Zhicheng He's Research Proposal](../asse
 
 News
 ------
-I'm currently serving as an intern under guidance of Prof. Xiaoqing Lv and Prof. Hongliang Ren. My final year project is mainly focused on multimodal knowledge graph based recommendation system. I am working on and always seeking opportunities for my applications of **25 fall master or phd degree**. I'm eager to get in touch with any potential AI-related projects and professors, please feel free to contact me!
+I'm currently serving as an intern under guidance of Prof. Xiaoqing Lv and Prof. Hongliang Ren. My final year project is mainly focused on multimodal knowledge graph based recommendation system. I am working on and always seeking opportunities for my applications of **25 fall master or phd degree**. I'm eager to get in touch with any potential AI-related projects and supervisors, please feel free to contact me!
