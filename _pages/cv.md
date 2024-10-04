@@ -26,7 +26,7 @@ keyword importance and grammatical weights, creating a service that parses subsc
 
 * **2024.07 - 2024.10: Multi-view Contrastive Learning of Medical Time Series Prediction Pretraining**
   * **Advisor: Prof. Tengfei Ma, the Stony Brook University**
-  * Implemented the ViTST and PatchTST models on PAMAP2 dataset and extracted feature representations for contrast learning, while integrated both views into one potential space. 
+  * Implemented the ViTST and PatchTST models on PAMAP2 dataset and extracted feature representations for contrast learning, while integrated both views into one potential space.
   
 Skills
 ======
@@ -55,6 +55,9 @@ Optimization Algorithm. (published)***](https://drpress.org/ojs/index.php/HBEM/a
 * [***EndoUIC: Promptable Diffusion Transformer for Unified Illumination Correction in Capsule Endoscopy. (published)***](https://arxiv.org/abs/2406.13705)
   * Bai, L., Tan, Q., Chen, T., Nah, W. J., Li, Y., **He, Z.**, et al. (2024).
   * Medical Image Computing and Computer Assisted Intervention Society (MICCAI 2024).
+* ***Graph Matching Based Graph Self-Supervised Learning for Molecular Property Prediction. (Accepted)***
+  * Lin, H., Zhou, Y., Hu, H., **He, Z.**, Wu, R., & Lyu, X. (2024).
+  * IEEE International Conference on Bioinformatics and Biomedicine.
   
 Service and leadership
 ======
