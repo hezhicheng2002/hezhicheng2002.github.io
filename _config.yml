@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Zhicheng He"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Undergraduate Student"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Beijing Jiaotong University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "21723048@bjtu.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -48,7 +48,8 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  wechat           : "Backfyre"
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
