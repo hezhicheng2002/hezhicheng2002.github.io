@@ -11,35 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science and Technology, Beijing Jiaotong University, 2025 (expected)
 
-Work experience
+Selected Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **2024.01 - 2025.04: Document Content Extraction and Comprehension Using LLM**
+  * **Advisor: Prof. Xiaoqing Lv, Wangxuan Institute of Computer Technology, Peking University**
+  * Developed an email parsing and recommendation system using LLM libraries like SpaCy and keyBERT to evaluate
+keyword importance and grammatical weights, creating a service that parses subscribed arXiv alerts; realized the delivery of personalized recommendation lists of research articles based on the parsed data.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **2024.01 - 2024.10: Orthodontics Image Classification Based on Adapter Learning**
+  * **Advisor: Prof. Hongliang Ren, the Chinese University of Hong Kong**
+  * Engaged in the adapter learning based orthodontics image classification using MMPretrain to train mainstream pipelines including ResNet50, Vision Transformer, Swin Transformer, and Surgical-Dino for classifying orthodontic diseases.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **2024.07 - 2024.10: Multi-view Contrastive Learning of Medical Time Series Prediction Pretraining**
+  * **Advisor: Prof. Tengfei Ma, the Stony Brook University**
+  * Implemented the ViTST and PatchTST models on PAMAP2 dataset and extracted feature representations for contrast learning, while integrated both views into one potential space. 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python, Pytorch
+* Java, Netbeans
+* SQL, MySQL, Tableau
+* C, C++, C#
+* Assembly language, Erlang
+* JavaScript, html, css
+* Unreal Engine, Unity
+* C4D, Blender, CAD, Inventor
+* Shell, Git
 
 Publications
 ======
@@ -47,18 +46,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently serve as the class commissary in charge of publicity
+* Used to work as the Vice President of the Student Science and Technology Association
+* Previously volunteered to guide Probability and Data Science in Academic Support Center
+* Have been leader of study groups for almost every courseworks and competitions throughout the college time
