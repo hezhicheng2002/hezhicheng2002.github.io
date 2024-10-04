@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Computer Science and Technology, Beijing Jiaotong University, 2025 (expected)
 
-Selected Research experience
+Selected Research Experience
 ======
 * **2024.01 - 2025.04: Document Content Extraction and Comprehension Using LLM**
   * **Advisor: Prof. Xiaoqing Lv, Wangxuan Institute of Computer Technology, Peking University**
@@ -59,7 +59,7 @@ Optimization Algorithm. (published)***](https://drpress.org/ojs/index.php/HBEM/a
   * Lin, H., Zhou, Y., Hu, H., **He, Z.**, Wu, R., & Lyu, X. (2024).
   * IEEE International Conference on Bioinformatics and Biomedicine.
   
-Service and leadership
+Service and Leadership
 ======
 * Currently serve as the class commissary in charge of publicity
 * Used to work as the Vice President of the Student Science and Technology Association
