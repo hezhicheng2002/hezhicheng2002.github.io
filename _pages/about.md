@@ -19,6 +19,6 @@ Here is my research proposal recently: [Zhicheng He's Research Proposal](../asse
 
 [Wechat](../images/wechat_qr.png) / [CSDN](https://blog.csdn.net/m0_72020568?spm=1000.2115.3001.5343)
 
-For more info
+News
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+I'm currently serving as an intern under guidance of Prof. Xiaoqing Lv and Prof. Hongliang Ren. My final year project is mainly focused on multimodal knowledge graph based recommendation system. I am working on and always seeking opportunities for my applications of 25 fall master or phd degree. I'm eager to get in touch with potential interested projects and professors, please feel free to contact me!
