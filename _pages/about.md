@@ -17,7 +17,7 @@ My current transcript is: [Zhicheng He's Transcript](../assets/Transcript-Zhiche
 
 Here is my research proposal recently: [Zhicheng He's Research Proposal](../assets/RP-Zhicheng He.pdf).
 
-[Wechat](../images/wechat_qr.png) / [CSDN](https://blog.csdn.net/m0_72020568?spm=1000.2115.3001.5343)
+[WeChat](../images/wechat_qr.png) / [CSDN](https://blog.csdn.net/m0_72020568?spm=1000.2115.3001.5343)
 
 News
 ------
