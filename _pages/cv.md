@@ -42,9 +42,19 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* [***Transformer-Based Visual Question Answering Model Comparison. (published)***](https://iopscience.iop.org/article/10.1088/1742-6596/2646/1/012031/meta)
+  * **He, Z.***, Li, Y., & Zhang, D. (2023). 
+  * International Conference on Software Engineering and Machine Learning (CONF-SEML 2023).
+* ***Deep Learning-based Detection of Impacted Teeth on Panoramic Radiographs. (published)***
+  * **He, Z.***, Li, X., & Wang, Y. (2024).
+  * Biomedical Engineering and Computational Biology (SCI Journal).
+* [***Automatic Pricing and Replenishment Decision of Vegetable Products Based on Heuristic
+Optimization Algorithm. (published)***](https://drpress.org/ojs/index.php/HBEM/article/view/15945)
+  * **He, Z.**, & Chen, X. (2024).
+  * Highlights in Business, Economics, and Management, 24, 12-17. ISSN: 2957-952X.
+* [***EndoUIC: Promptable Diffusion Transformer for Unified Illumination Correction in Capsule Endoscopy. (published)***](https://arxiv.org/abs/2406.13705)
+  * Bai, L., Tan, Q., Chen, T., Nah, W. J., Li, Y., **He, Z.**, et al. (2024).
+  * Medical Image Computing and Computer Assisted Intervention Society (MICCAI 2024).
   
 Service and leadership
 ======
