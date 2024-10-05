@@ -33,12 +33,13 @@ Skills
 * Python, Pytorch
 * Java, Netbeans
 * SQL, MySQL, Tableau
-* C, C++, C#
+* C, C++, C#, Matlab
 * Assembly language, Erlang
-* JavaScript, html, css
+* JavaScript, HTML, CSS
+* SPSS, SAS, R, Scratch
 * Unreal Engine, Unity
 * C4D, Blender, CAD, Inventor
-* Shell, Git
+* Shell, Git, Github, MounRiver
 
 Publications
 ======
@@ -63,5 +64,5 @@ Service and Leadership
 ======
 * Currently serve as the class commissary in charge of publicity
 * Used to work as the Vice President of the Student Science and Technology Association
-* Previously volunteered to guide Probability and Data Science in Academic Support Center
-* Have been leader of study groups for almost every courseworks and competitions throughout the college time
+* Previously volunteered to instruct Probability seminars and hold Data Science workshop in Academic Support Center
+* Have been leader of study groups for almost every coursework and competition throughout the college time
