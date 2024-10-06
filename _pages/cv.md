@@ -46,7 +46,7 @@ Publications
 * [***Transformer-Based Visual Question Answering Model Comparison. (published)***](https://iopscience.iop.org/article/10.1088/1742-6596/2646/1/012031/meta)
   * **He, Z.***, Li, Y., & Zhang, D. (2023). 
   * International Conference on Software Engineering and Machine Learning (CONF-SEML 2023).
-* ***Deep Learning-based Detection of Impacted Teeth on Panoramic Radiographs. (published)***
+* [***Deep Learning-based Detection of Impacted Teeth on Panoramic Radiographs. (published)***](https://journals.sagepub.com/doi/10.1177/11795972241288319)
   * **He, Z.***, Li, X., & Wang, Y. (2024).
   * Biomedical Engineering and Computational Biology (SCI Journal).
 * [***Automatic Pricing and Replenishment Decision of Vegetable Products Based on Heuristic
