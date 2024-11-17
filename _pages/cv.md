@@ -53,7 +53,7 @@ Publications
 Optimization Algorithm. (published)***](https://drpress.org/ojs/index.php/HBEM/article/view/15945)
   * **He, Z.**, & Chen, X. (2024).
   * Highlights in Business, Economics, and Management, 24, 12-17. ISSN: 2957-952X.
-* [***EndoUIC: Promptable Diffusion Transformer for Unified Illumination Correction in Capsule Endoscopy. (published)***](https://arxiv.org/abs/2406.13705)
+* [***EndoUIC: Promptable Diffusion Transformer for Unified Illumination Correction in Capsule Endoscopy. (published)***](https://link.springer.com/chapter/10.1007/978-3-031-72104-5_29)
   * Bai, L., Tan, Q., Chen, T., Nah, W. J., Li, Y., **He, Z.**, et al. (2024).
   * Medical Image Computing and Computer Assisted Intervention Society (MICCAI 2024).
 * ***Graph Matching Based Graph Self-Supervised Learning for Molecular Property Prediction. (Accepted)***
