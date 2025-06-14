@@ -13,12 +13,8 @@ I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee
 
 You can find my CV here: [Zhicheng He's Curriculum Vitae](../assets/CV-He Zhicheng.pdf).
 
-My current transcript is: [Zhicheng He's Transcript](../assets/Transcript-Zhicheng He.pdf).
-
-Here is my research proposal recently: [Zhicheng He's Research Proposal](../assets/RP-Zhicheng He.pdf).
-
 [WeChat](../images/wechat_qr.png) / [CSDN](https://blog.csdn.net/m0_72020568?spm=1000.2115.3001.5343)
 
 News
 ------
-I'm currently serving as an intern under guidance of Prof. Xiaoqing Lv and Prof. Hongliang Ren. My final year project is mainly focused on multimodal knowledge graph based recommendation system. I am working on and always seeking opportunities for my applications of **25 fall master or phd degree**. I'm eager to get in touch with any potential AI-related projects and supervisors, please feel free to contact me!
+I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
