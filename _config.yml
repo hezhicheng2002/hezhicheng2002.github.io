@@ -10,11 +10,11 @@
 locale                   : "en-US"
 title                    : "Zhicheng He's Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Zhicheng He"
+description              : &description "Graduate student (NUS BME). Research: medical image analysis, multi-modal LLMs."
 url                      : https://hezhicheng2002.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "hezhicheng2002/hezhicheng2002.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Zhicheng He"
   pronouns         : "he/him"  
-  bio              : "An Undergraduate Student majoring in Computer Science and Technology, Phone: +86 13913888137, Email: 19563133418@163.com"
-  location         : "Nanjing, Jiangsu, China"
-  employer         : "Beijing Jiaotong University"
+  bio              : "First-year graduate student in Biomedical Engineering at the National University of Singapore (NUS). Research interests: medical image analysis and multi-modal large language models."
+  location         : "Singapore"
+  employer         : "National University of Singapore"
   uri              : # URL
   email            : "21723048@bjtu.edu.cn" 
 
@@ -117,7 +117,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # hide RSS/atom feed (subscriptions disabled per current preference)
   path                   : # blank (default) uses feed.xml
 
 
@@ -146,9 +146,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # set GA4 as the default free/common analytics
   google:
-    tracking_id          :
+    tracking_id          : "G-XXXXXXXXXX" # TODO: replace with your GA4 Measurement ID
 
 
 # Reading Files
@@ -224,6 +224,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  progress:
+    output: true
+    permalink: /:collection/:path/
+  notes:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -236,7 +242,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -254,7 +260,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -263,7 +269,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -272,7 +278,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: false
   # _talks
   - scope:
       path: ""
@@ -281,6 +287,25 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      comments: false
+  # _progress
+  - scope:
+      path: ""
+      type: progress
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
 
 
 # Sass/SCSS

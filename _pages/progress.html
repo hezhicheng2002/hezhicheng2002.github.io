@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Research Progress"
+permalink: /progress/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign items = site.progress | sort: 'date' | reverse %}
+{% if items and items.size > 0 %}
+  {% for post in items %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No progress updates yet.</p>
+{% endif %}
+
