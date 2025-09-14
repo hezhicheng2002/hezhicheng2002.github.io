@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: splash
+layout: single
 title: "Hi, I'm Zhicheng He（何智成）"
 author_profile: true
 redirect_from:
