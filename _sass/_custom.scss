@@ -1,0 +1,8 @@
+/* Custom overrides */
+
+/* Blend masthead with page background and remove any perceived white bar */
+.masthead {
+  background: $background-color !important;
+  top: 0 !important;
+}
+

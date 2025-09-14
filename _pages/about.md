@@ -14,8 +14,6 @@ I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee
 
 You can find my CV here: [Zhicheng He's Curriculum Vitae](../assets/CV-He%20Zhicheng.pdf).
 
-[WeChat](../images/wechat_qr.png) / [CSDN](https://blog.csdn.net/m0_72020568?spm=1000.2115.3001.5343)
-
 News
 ------
 I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.

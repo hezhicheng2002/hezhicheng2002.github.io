@@ -71,7 +71,13 @@
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+        <li>
+          {% if author.github contains "://" %}
+            <a href="{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a>
+          {% else %}
+            <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a>
+          {% endif %}
+        </li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
@@ -109,7 +115,13 @@
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        <li>
+          {% if author.linkedin contains "://" %}
+            <a href="{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
+          {% else %}
+            <a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
+          {% endif %}
+        </li>
       {% endif %}      
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
@@ -151,8 +163,22 @@
         <li><a href="https://www.youtube.com/@{{ author.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
       {% endif %}
       {% if author.zhihu %}
-      <li><a href="htps://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+        <li>
+          {% if author.zhihu contains "://" %}
+            <a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a>
+          {% else %}
+            <a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a>
+          {% endif %}
+        </li>
+      {% endif %}
+
+      {% if author.csdn %}
+        <li><a href="{{ author.csdn }}"><i class="fas fa-fw fa-blog icon-pad-right" aria-hidden="true"></i>CSDN</a></li>
+      {% endif %}
+
+      {% if author.wechat_qr %}
+        <li><a href="{{ author.wechat_qr }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
