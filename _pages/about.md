@@ -12,24 +12,27 @@ I am a first-year graduate student in the Department of Biomedical Engineering a
 
 I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee.org/author/37599114400) of [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/), Peking University. Meanwhile, I am honored to be recommended by [Prof. Hongliang Ren](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang) of [Ren Lab](http://www.labren.org/mm/) from The Chinese University of Hong Kong. Moreover, I am thrilled to be instructed by [Prof. Tengfei Ma](https://ai.stonybrook.edu/people/faculty/TengfeiMa) of Department of Biomedical Informatics from Stony Brook University, who also agreed to be my recommender.
 
-You can find my CV here: [Zhicheng He's Curriculum Vitae](../assets/CV-He%20Zhicheng.pdf).
-
 News
 ------
 I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
 
-Latest Progress
+Publications
 ------
-{% assign latest_progress = site.progress | sort: 'date' | reverse | slice: 0,5 %}
-{% if latest_progress and latest_progress.size > 0 %}
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% if publications and publications.size > 0 %}
 <ul>
-{% for item in latest_progress %}
-  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> <small>({{ item.date | date: "%Y-%m-%d" }})</small></li>
+{% for item in publications %}
+  <li>
+    <strong>{{ item.title }}</strong><br>
+    {{ item.citation }}<br>
+    {% if item.paperurl %}<a href="{{ item.paperurl }}">Paper</a>{% endif %}
+    {% if item.slidesurl %} | <a href="{{ item.slidesurl }}">Slides</a>{% endif %}
+  </li>
 {% endfor %}
 </ul>
-<p><a href="/progress/">View all progress →</a></p>
+<p><a href="/publications/">View all publications →</a></p>
 {% else %}
-<p>No progress updates yet.</p>
+<p>No publications yet.</p>
 {% endif %}
 
 Latest Notes
