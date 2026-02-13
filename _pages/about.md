@@ -34,17 +34,3 @@ Publications
 {% else %}
 <p>No publications yet.</p>
 {% endif %}
-
-Latest Notes
-------
-{% assign latest_notes = site.notes | sort: 'date' | reverse | slice: 0,5 %}
-{% if latest_notes and latest_notes.size > 0 %}
-<ul>
-{% for item in latest_notes %}
-  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> <small>({{ item.date | date: "%Y-%m-%d" }})</small></li>
-{% endfor %}
-</ul>
-<p><a href="/notes/">View all notes →</a></p>
-{% else %}
-<p>No notes published yet.</p>
-{% endif %}
