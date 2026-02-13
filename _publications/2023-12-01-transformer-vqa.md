@@ -1,7 +1,7 @@
 ---
 title: "Transformer-based visual question answering model comparison"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2023-12-01-transformer-vqa
 excerpt: 'A comparative analysis of LXMERT and UNITER models for visual question answering tasks.'
 date: 2023-12-01
