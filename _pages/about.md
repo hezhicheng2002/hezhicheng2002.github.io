@@ -14,11 +14,10 @@ I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee
 
 News
 ------
+- Ad-hoc Reviewer for <em>Nature Biomedical Engineering</em> (2026).
 - 🎉 One paper has been accepted to <strong>CVPR 2026</strong>.
 - 🎉 One paper has been accepted to <strong>MIDL 2026</strong>.
 - I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
-
-Academic Service: Ad-hoc Reviewer for Nature Biomedical Engineering (2026).
 
 Publications
 ------
