@@ -14,7 +14,9 @@ I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee
 
 News
 ------
-I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
+- 🎉 One paper has been accepted to <strong>MIDL 2026</strong>.
+- 🎉 One paper has been accepted to <strong>CVPR 2026</strong>.
+- I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
 
 Publications
 ------
