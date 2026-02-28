@@ -36,7 +36,3 @@ Publications
 {% else %}
 <p>No publications yet.</p>
 {% endif %}
-
-Visitors
-------
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=XTXtwukuFYmevtm8f2Fv1Gh655Ke0WwgDgQdaSaXCB8"></script>
