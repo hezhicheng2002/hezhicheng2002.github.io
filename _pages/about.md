@@ -18,6 +18,8 @@ News
 - 🎉 One paper has been accepted to <strong>MIDL 2026</strong>.
 - I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
 
+Academic Service: Ad-hoc Reviewer for Nature Biomedical Engineering (2026).
+
 Publications
 ------
 {% assign publications = site.publications | sort: 'date' | reverse %}
