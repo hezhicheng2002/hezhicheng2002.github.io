@@ -39,8 +39,4 @@ Publications
 
 Visitors
 ------
-<div style="text-align: center; margin-top: 0.5rem; margin-bottom: 0; height: 120px; overflow: hidden;">
-  <div style="display: inline-block; transform: scale(0.42); transform-origin: top center;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=XTXtwukuFYmevtm8f2Fv1Gh655Ke0WwgDgQdaSaXCB8"></script>
-  </div>
-</div>
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=XTXtwukuFYmevtm8f2Fv1Gh655Ke0WwgDgQdaSaXCB8"></script>
