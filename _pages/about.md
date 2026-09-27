@@ -24,12 +24,16 @@ News
 - 2025: [DINOv3-FD](https://openreview.net/forum?id=cAVWntFxlF) is accepted by <strong>MIDL 2026</strong>.
 - 2025: I join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team as an MEng student.
 
-Publications
+Selected Publications
 ------
+Selected first-author work in medical imaging, including collaborations with Dr. Yueming Jin.
+
+{% assign selected_publication_urls = "/publication/2026-02-16-medvar|/publication/2026-01-01-dinov3-fd|/publication/2024-10-01-impacted-teeth" | split: "|" %}
 {% assign publications = site.publications | sort: 'date' | reverse %}
 {% if publications and publications.size > 0 %}
 <ul>
 {% for item in publications %}
+  {% unless selected_publication_urls contains item.permalink %}{% continue %}{% endunless %}
   <li>
     <strong>{{ item.title }}</strong><br>
     {{ item.citation }}<br>
