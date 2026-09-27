@@ -28,7 +28,7 @@ author:
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
-  email            : "21723048@bjtu.edu.cn" 
+  email            : "zhichenghe@u.nus.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -149,11 +149,9 @@ social:
   links: # An array of links to social media profiles
 
 
-# Analytics
+# Keep GA4 off; the visitor globe is configured in author-profile.html.
 analytics:
-  provider               :  "google-analytics-4" # set GA4 as the default free/common analytics
-  google:
-    tracking_id          : "G-XXXXXXXXXX" # TODO: replace with your GA4 Measurement ID
+  provider               : false
 
 
 # Reading Files

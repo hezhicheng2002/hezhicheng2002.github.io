@@ -26,8 +26,6 @@ News
 
 Selected Publications
 ------
-Selected first-author work in medical imaging, including collaborations with Dr. Yueming Jin.
-
 {% assign selected_publication_urls = "/publication/2026-02-16-medvar|/publication/2026-01-01-dinov3-fd|/publication/2024-10-01-impacted-teeth" | split: "|" %}
 {% assign publications = site.publications | sort: 'date' | reverse %}
 {% if publications and publications.size > 0 %}
