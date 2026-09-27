@@ -180,8 +180,9 @@
         <li><a href="{{ author.wechat_qr }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
       {% endif %}
     </ul>
-    <div class="author__desktop" style="margin-top: 0.45rem; height: 84px; overflow: hidden;">
-      <div id="mapmyvisitors-widget" style="width: 92px; transform: scale(0.5); transform-origin: top left;">
+    <div class="author__desktop" style="margin-top: 0.45rem;">
+      <div id="mapmyvisitors-widget" style="width: 92px;">
+        <style>#mapmyvisitors-widget .mmvst_inner { display: block !important; }</style>
         <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=QcDIPzpK8REeYgt9Asr2VE7_22b1GRvpt9vLenKyXuc"></script>
       </div>
     </div>
