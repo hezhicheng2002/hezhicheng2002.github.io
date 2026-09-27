@@ -14,8 +14,8 @@ I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee
 
 News
 ------
-- 2026: [Morphological Decoupling-Based Skeletal Classification for Clinical Assessment of Malocclusion](https://arxiv.org/abs/2609.09801) appeared in <em>Biocybernetics and Biomedical Engineering</em>.
-- 2026: [Reasoning with Memory](https://arxiv.org/abs/2607.24794) appeared at <strong>ECCV 2026</strong>, and [SciXplain](https://doi.org/10.1007/978-3-032-36207-0_28) appeared at <strong>DAS 2026</strong>.
+- 2026: [TeethGNN](https://arxiv.org/abs/2609.09801) appeared in <em>Biocybernetics and Biomedical Engineering</em>.
+- 2026: [ReMem](https://arxiv.org/abs/2607.24794) appeared at <strong>ECCV 2026</strong>, and [SciXplain](https://doi.org/10.1007/978-3-032-36207-0_28) appeared at <strong>DAS 2026</strong>.
 - 2026: [Granulon](https://openaccess.thecvf.com/content/CVPR2026/html/Mao_Granulon_Awakening_Pixel-Level_Visual_Encoders_with_Adaptive_Multi-Granularity_Semantics_for_CVPR_2026_paper.html) appeared at <strong>CVPR 2026</strong>, and [DINOv3-FD](https://openreview.net/forum?id=cAVWntFxlF) appeared at <strong>MIDL 2026</strong>.
 - 2026: [MedVAR](https://arxiv.org/abs/2602.14512) is available on arXiv.
 - Ad-hoc Reviewer for <em>Nature Biomedical Engineering</em> (2026).
