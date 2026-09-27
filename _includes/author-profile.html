@@ -188,12 +188,13 @@
           const updateStatsLink = () => {
             const link = container.querySelector('#mapmyvisitors-widget');
             if (!link) return;
-            link.href = 'https://mapmyvisitors.com/web/1c8hh';
+            if (link.href !== 'https://mapmyvisitors.com/web/1c8hh') {
+              link.href = 'https://mapmyvisitors.com/web/1c8hh';
+            }
             link.setAttribute('aria-label', 'Visitor statistics');
-            observer.disconnect();
           };
           const observer = new MutationObserver(updateStatsLink);
-          observer.observe(container, { childList: true, subtree: true });
+          observer.observe(container, { childList: true, subtree: true, attributes: true, attributeFilter: ['href'] });
           updateStatsLink();
         })();
       </script>
