@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student in the Department of Biomedical Engineering at the National University of Singapore. I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
+I am a second-year graduate student in the Department of Biomedical Engineering at the National University of Singapore, advised by [Dr. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
 
 I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee.org/author/37599114400) of [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/), Peking University. Meanwhile, I am honored to be recommended by [Prof. Hongliang Ren](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang) of [Ren Lab](http://www.labren.org/mm/) from The Chinese University of Hong Kong. Moreover, I am thrilled to be instructed by [Prof. Tengfei Ma](https://ai.stonybrook.edu/people/faculty/TengfeiMa) of Department of Biomedical Informatics from Stony Brook University, who also agreed to be my recommender.
 
