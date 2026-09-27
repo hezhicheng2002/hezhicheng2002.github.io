@@ -8,16 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year graduate student in the Department of Biomedical Engineering at the National University of Singapore. I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
+I am a second-year graduate student in the Department of Biomedical Engineering at the National University of Singapore. I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
 
 I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee.org/author/37599114400) of [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/), Peking University. Meanwhile, I am honored to be recommended by [Prof. Hongliang Ren](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang) of [Ren Lab](http://www.labren.org/mm/) from The Chinese University of Hong Kong. Moreover, I am thrilled to be instructed by [Prof. Tengfei Ma](https://ai.stonybrook.edu/people/faculty/TengfeiMa) of Department of Biomedical Informatics from Stony Brook University, who also agreed to be my recommender.
 
 News
 ------
+- 2026: [Morphological Decoupling-Based Skeletal Classification for Clinical Assessment of Malocclusion](https://arxiv.org/abs/2609.09801) appeared in <em>Biocybernetics and Biomedical Engineering</em>.
+- 2026: [Reasoning with Memory](https://arxiv.org/abs/2607.24794) appeared at <strong>ECCV 2026</strong>, and [SciXplain](https://doi.org/10.1007/978-3-032-36207-0_28) appeared at <strong>DAS 2026</strong>.
+- 2026: [Granulon](https://openaccess.thecvf.com/content/CVPR2026/html/Mao_Granulon_Awakening_Pixel-Level_Visual_Encoders_with_Adaptive_Multi-Granularity_Semantics_for_CVPR_2026_paper.html) appeared at <strong>CVPR 2026</strong>, and [DINOv3-FD](https://openreview.net/forum?id=cAVWntFxlF) appeared at <strong>MIDL 2026</strong>.
+- 2026: [MedVAR](https://arxiv.org/abs/2602.14512) is available on arXiv.
 - Ad-hoc Reviewer for <em>Nature Biomedical Engineering</em> (2026).
-- 🎉 One paper has been accepted to <strong>CVPR 2026</strong>.
-- 🎉 One paper has been accepted to <strong>MIDL 2026</strong>.
-- I'm happy to join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as a MEng student.
+- I joined [Dr. Yueming Jin](https://yuemingjin.github.io/)'s team in 2025 as an MEng student.
 
 Publications
 ------

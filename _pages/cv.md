@@ -38,12 +38,10 @@ Skills
 
 Publications
 ======
-* [***Deep Learning-based Detection of Impacted Teeth on Panoramic Radiographs. (published)***](https://journals.sagepub.com/doi/10.1177/11795972241288319)
-  * **He, Z.***, Li, X., & Wang, Y. (2024).
-  * Biomedical Engineering and Computational Biology (SCI Journal).
-* [***EndoUIC: Promptable Diffusion Transformer for Unified Illumination Correction in Capsule Endoscopy. (published)***](https://link.springer.com/chapter/10.1007/978-3-031-72104-5_29)
-  * Bai, L., Tan, Q., Chen, T., Nah, W. J., Li, Y., **He, Z.**, et al. (2024).
-  * Medical Image Computing and Computer Assisted Intervention Society (MICCAI 2024).
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% for item in publications %}
+* [**{{ item.title }}**]({{ item.paperurl }}) — {{ item.venue }}, {{ item.date | date: '%Y' }}.
+{% endfor %}
 
   
 Service and Leadership
