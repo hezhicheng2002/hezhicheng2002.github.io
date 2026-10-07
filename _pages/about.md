@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Master of Engineering (MEng) student in the Department of Biomedical Engineering at the National University of Singapore, working in the [Intelligent Medical Vision & Robotics (iMVR) Lab](https://github.com/jinlab-imvr) under the supervision of [Dr. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
+I am a second-year Master of Engineering (MEng) by Research student in the Department of Biomedical Engineering at the National University of Singapore, working in the [Intelligent Medical Vision & Robotics (iMVR) Lab](https://github.com/jinlab-imvr) under the supervision of [Dr. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
 
 [View my CV →](/cv/)
 
@@ -24,7 +24,7 @@ News
 - 2026: [MedVAR](https://arxiv.org/abs/2602.14512) is available on arXiv.
 - 2025: [Granulon](https://openaccess.thecvf.com/content/CVPR2026/html/Mao_Granulon_Awakening_Pixel-Level_Visual_Encoders_with_Adaptive_Multi-Granularity_Semantics_for_CVPR_2026_paper.html) is accepted by <strong>CVPR 2026</strong>.
 - 2025: [DINOv3-FD](https://openreview.net/forum?id=cAVWntFxlF) is accepted by <strong>MIDL 2026</strong>.
-- 2025: I join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s lab as an MEng student.
+- 2025: I join [Dr. Yueming Jin](https://yuemingjin.github.io/)'s lab as an MEng by Research student.
 
 Selected Publications
 ------
