@@ -21,7 +21,7 @@ repository               : "hezhicheng2002/hezhicheng2002.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "personal.png"
   name             : "Zhicheng He"
   pronouns         : "he/him"  
   bio              : "Second-year Master of Engineering (MEng) student in the Department of Biomedical Engineering at the National University of Singapore (NUS).<br>Research interests: medical image analysis and multi-modal large language models."
