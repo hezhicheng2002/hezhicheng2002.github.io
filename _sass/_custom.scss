@@ -6,3 +6,41 @@
   top: 0 !important;
 }
 
+.page__content .news-list {
+  max-height: 13rem;
+  margin: 0;
+  padding: 0.15em 0.75em 0.15em 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  list-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: $primary-color $background-color;
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 4px;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: 1.25em 3em minmax(0, 1fr);
+    column-gap: 0.4em;
+    align-items: baseline;
+    margin-bottom: 0.6em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .news-icon {
+    font-size: 0.9em;
+  }
+
+  .news-year {
+    color: $primary-color;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
