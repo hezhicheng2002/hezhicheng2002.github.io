@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Master of Engineering (MEng) by Research student in the Department of Biomedical Engineering at the National University of Singapore, working in the [Intelligent Medical Vision & Robotics (iMVR) Lab](https://github.com/jinlab-imvr) under the supervision of [Dr. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
+I am a second-year Master of Engineering (MEng) by Research student in the Department of Biomedical Engineering at the National University of Singapore, working in the [Intelligent Medical Vision & Robotics (iMVR) Lab](https://github.com/jinlab-imvr) under the supervision of [Prof. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
 
 [View my CV →](/cv/)
 
@@ -35,7 +35,7 @@ News
   <li><span class="news-icon" aria-hidden="true">🎉</span><span class="news-year">2025</span>
     <span><a href="https://openreview.net/forum?id=cAVWntFxlF">DINOv3-FD</a> is accepted by <strong>MIDL 2026</strong>.</span></li>
   <li><span class="news-icon" aria-hidden="true">🎉</span><span class="news-year">2025</span>
-    <span>I join <a href="https://yuemingjin.github.io/">Dr. Yueming Jin</a>'s lab as an MEng by Research student.</span></li>
+    <span>I join <a href="https://yuemingjin.github.io/">Prof. Yueming Jin</a>'s lab as an MEng by Research student.</span></li>
 </ul>
 
 Selected Publications
