@@ -36,6 +36,9 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+      {% if author.whatsapp %}
+        <li><a href="https://wa.me/{{ author.whatsapp }}"><i class="fab fa-fw fa-whatsapp icon-pad-right" aria-hidden="true"></i>WhatsApp</a></li>
+      {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
@@ -178,9 +181,6 @@
 
       {% if author.wechat_qr %}
         <li><a href="{{ author.wechat_qr }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
-      {% endif %}
-      {% if author.whatsapp %}
-        <li><a href="https://wa.me/{{ author.whatsapp }}"><i class="fab fa-fw fa-whatsapp icon-pad-right" aria-hidden="true"></i>WhatsApp</a></li>
       {% endif %}
     </ul>
     <div id="visitor-map-container" class="author__desktop" style="margin-top: 0.45rem; width: 180px; max-width: 100%;">
