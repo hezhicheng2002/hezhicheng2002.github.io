@@ -29,11 +29,12 @@ News
 Selected Publications
 ------
 {% assign selected_publication_urls = "/publication/2026-02-16-medvar|/publication/2026-01-01-dinov3-fd|/publication/2026-09-09-teethgnn" | split: "|" %}
-{% assign publications = site.publications | sort: 'date' | reverse %}
+{% assign publications = site.publications %}
 {% if publications and publications.size > 0 %}
 <ul>
-{% for item in publications %}
-  {% unless selected_publication_urls contains item.permalink %}{% continue %}{% endunless %}
+{% for selected_url in selected_publication_urls %}
+  {% assign item = publications | where: 'permalink', selected_url | first %}
+  {% unless item %}{% continue %}{% endunless %}
   <li>
     <strong>{{ item.title }}</strong><br>
     {{ item.citation }}<br>
