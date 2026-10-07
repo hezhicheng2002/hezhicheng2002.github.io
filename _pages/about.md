@@ -16,11 +16,11 @@ I am very fortunate to be advised by [Prof. Xiaoqing Lv](https://ieeexplore.ieee
 
 News
 ------
-- 2026: [MedVAR](https://arxiv.org/abs/2602.14512) is being submitted to <em>Nature Biomedical Engineering</em>.
-- 2026: [TeethGNN](https://arxiv.org/abs/2609.09801) is accepted by <em>Biocybernetics and Biomedical Engineering</em>.
+- 2026: [MedVAR](https://arxiv.org/abs/2602.14512) is being submitted to <strong>Nature Biomedical Engineering</strong>.
+- 2026: [TeethGNN](https://arxiv.org/abs/2609.09801) is accepted by <strong>Biocybernetics and Biomedical Engineering</strong>.
 - 2026: [ReMem](https://arxiv.org/abs/2607.24794) is accepted by <strong>ECCV 2026</strong>.
 - 2026: [SciXplain](https://doi.org/10.1007/978-3-032-36207-0_28) is accepted by <strong>DAS 2026</strong>.
-- 2026: Ad-hoc Reviewer for <em>Nature Biomedical Engineering</em>.
+- 2026: Ad-hoc Reviewer for <strong>Nature Biomedical Engineering</strong>.
 - 2026: [MedVAR](https://arxiv.org/abs/2602.14512) is available on arXiv.
 - 2025: [Granulon](https://openaccess.thecvf.com/content/CVPR2026/html/Mao_Granulon_Awakening_Pixel-Level_Visual_Encoders_with_Adaptive_Multi-Granularity_Semantics_for_CVPR_2026_paper.html) is accepted by <strong>CVPR 2026</strong>.
 - 2025: [DINOv3-FD](https://openreview.net/forum?id=cAVWntFxlF) is accepted by <strong>MIDL 2026</strong>.
