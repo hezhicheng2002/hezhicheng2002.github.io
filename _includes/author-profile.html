@@ -179,6 +179,9 @@
       {% if author.wechat_qr %}
         <li><a href="{{ author.wechat_qr }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
       {% endif %}
+      {% if author.whatsapp %}
+        <li><a href="https://wa.me/{{ author.whatsapp }}"><i class="fab fa-fw fa-whatsapp icon-pad-right" aria-hidden="true"></i>WhatsApp</a></li>
+      {% endif %}
     </ul>
     <div id="visitor-map-container" class="author__desktop" style="margin-top: 0.45rem; width: 180px; max-width: 100%;">
       <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=koGdRWIDbHHhW_LHeu1KMOqd7Ao0vBTF3w52oQ_7v6w&co=eaf4eb&cl=315e45&w=a&t=n"></script>

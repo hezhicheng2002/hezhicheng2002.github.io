@@ -94,11 +94,12 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 150px;
     border-radius: 50%;
-    mix-blend-mode: multiply;
+    mix-blend-mode: darken;
 
     @include breakpoint($large) {
+      margin: 0 auto;
       padding: 5px;
       border: 1px solid $border-color;
     }
