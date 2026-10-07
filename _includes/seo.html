@@ -5,9 +5,11 @@
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
+{% assign seo_site_title = site.title %}
+{% if page.lang == 'zh-CN' %}{% assign seo_site_title = site.data.zh.site_title %}{% endif %}
 
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: seo_site_title %}
 {% endif %}
 
 {% if seo_title %}
@@ -40,13 +42,20 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="{{ page.lang | default: site.locale | replace: '-', '_' }}">
+<meta property="og:site_name" content="{{ seo_site_title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  {% if page.chinese_url %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | prepend: seo_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.chinese_url | prepend: seo_url }}">
+  {% elsif page.english_url %}
+    <link rel="alternate" hreflang="en" href="{{ page.english_url | prepend: seo_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.url | prepend: seo_url }}">
+  {% endif %}
 {% endif %}
 
 {% if seo_description %}

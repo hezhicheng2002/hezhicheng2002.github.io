@@ -1,0 +1,19 @@
+{% assign selected_publication_urls = "/publication/2026-02-16-medvar|/publication/2026-01-01-dinov3-fd|/publication/2026-09-09-teethgnn" | split: "|" %}
+{% assign publications = site.publications %}
+{% if publications and publications.size > 0 %}
+<ul>
+{% for selected_url in selected_publication_urls %}
+  {% assign item = publications | where: 'permalink', selected_url | first %}
+  {% unless item %}{% continue %}{% endunless %}
+  <li>
+    <strong lang="en">{{ item.title }}</strong><br>
+    {% if page.lang == 'zh-CN' %}{{ item.citation | replace: 'Co-first author', '共同第一作者' }}{% else %}{{ item.citation }}{% endif %}<br>
+    {% if item.paperurl %}<a href="{{ item.paperurl }}">{% if page.lang == 'zh-CN' %}论文{% else %}Paper{% endif %}</a>{% endif %}
+    {% if item.slidesurl %} | <a href="{{ item.slidesurl }}">{% if page.lang == 'zh-CN' %}演示文稿{% else %}Slides{% endif %}</a>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% if page.lang == 'zh-CN' %}<p><a href="{{ site.baseurl }}/zh/publications/">查看全部论文 →</a></p>{% else %}<p><a href="{{ site.baseurl }}/publications/">View all publications →</a></p>{% endif %}
+{% else %}
+<p>{% if page.lang == 'zh-CN' %}暂无论文。{% else %}No publications yet.{% endif %}</p>
+{% endif %}

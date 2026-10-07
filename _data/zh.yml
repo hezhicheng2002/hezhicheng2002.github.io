@@ -1,0 +1,23 @@
+site_title: "何智成的个人主页"
+author:
+  name: "何智成"
+  bio: "新加坡国立大学生物医学工程系研究型工程硕士二年级学生。<br>研究方向：医学图像分析、多模态大语言模型。"
+  location: "新加坡"
+  employer: "新加坡国立大学"
+publication_category:
+  conferences: "会议论文"
+  manuscripts: "期刊论文"
+  books: "著作"
+publication_excerpts:
+  /publication/2023-12-01-transformer-vqa: "比较 LXMERT 和 UNITER 等基于 Transformer 的模型在视觉问答任务中的表现。"
+  /publication/2024-12-03-gmssl: "利用图匹配构建图自监督学习框架，用于分子性质预测。"
+  /publication/2024-10-01-impacted-teeth: "微调 MedSAM 进行全景 X 光片中的阻生牙分割，辅助牙科诊断。"
+  /publication/2024-10-03-endouic: "基于可提示扩散 Transformer，实现胶囊内镜图像的统一光照校正。"
+  /publication/2025-09-16-sssi: "基于 SAM 的自提示方法，用于科学插图分割。"
+  /publication/2026-09-13-remem: "通过记忆引导的关键帧选择，实现无需训练的长视频理解。"
+  /publication/2026-09-03-scixplain: "面向科学方法示意图的结构感知表征学习。"
+  /publication/2026-06-01-granulon: "根据文本语境自适应调整视觉特征粒度的多模态大语言模型方法。"
+  /publication/2026-09-09-teethgnn: "基于 CBCT 和图神经网络的骨骼分类框架，用于错颌畸形临床评估。"
+  /publication/2026-02-16-medvar: "基于下一尺度自回归的医学图像生成基础模型，覆盖六个解剖区域的 CT 和 MRI 图像。"
+  /publication/2026-01-01-dinov3-fd: "通过面向任务的特征解耦，实现 DINOv3 对医学视觉任务的参数高效适配。"
+  /publication/2025-09-16-paper2ppt: "通过多模态内容对齐，将学术论文转化为视觉演示文稿。"

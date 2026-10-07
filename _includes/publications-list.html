@@ -1,0 +1,16 @@
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign category_key = category[0] %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}{% continue %}{% endif %}
+      {% unless title_shown %}
+        <h2>{% if page.lang == 'zh-CN' %}{{ site.data.zh.publication_category[category_key] | default: category[1].title }}{% else %}{{ category[1].title }}{% endif %}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}{% include archive-single.html %}{% endfor %}
+{% endif %}

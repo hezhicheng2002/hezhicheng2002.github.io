@@ -3,38 +3,41 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign profile_text = author %}
+{% assign profile_locale = page.lang | default: site.locale %}
+{% if page.lang == 'zh-CN' %}{% assign profile_text = site.data.zh.author %}{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar }}" alt="{{ profile_text.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ profile_text.name }}">
     {% endif %}
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{{ profile_text.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if profile_text.bio %}<p class="author__bio">{{ profile_text.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Contact</button>
+    <button class="btn btn--inverse">{% if page.lang == 'zh-CN' %}联系我{% else %}Contact{% endif %}</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ profile_text.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ profile_text.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[profile_locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[profile_locale].email_label | default: "Email" }}</a></li>
       {% endif %}
       {% if author.whatsapp %}
         <li><a href="https://wa.me/{{ author.whatsapp }}"><i class="fab fa-fw fa-whatsapp icon-pad-right" aria-hidden="true"></i>WhatsApp</a></li>
@@ -45,7 +48,7 @@
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>{% if page.lang == 'zh-CN' %}谷歌学术{% else %}Google Scholar{% endif %}</a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
@@ -180,7 +183,7 @@
       {% endif %}
 
       {% if author.wechat_qr %}
-        <li><a href="{{ author.wechat_qr }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
+        <li><a href="{{ author.wechat_qr }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>{% if page.lang == 'zh-CN' %}微信{% else %}WeChat{% endif %}</a></li>
       {% endif %}
     </ul>
     <div id="visitor-map-container" class="author__desktop" style="margin-top: 0.45rem; width: 180px; max-width: 100%;">
@@ -194,7 +197,7 @@
             if (link.href !== 'https://mapmyvisitors.com/web/1c8hh') {
               link.href = 'https://mapmyvisitors.com/web/1c8hh';
             }
-            link.setAttribute('aria-label', 'Visitor statistics');
+            link.setAttribute('aria-label', '{% if page.lang == "zh-CN" %}访问统计{% else %}Visitor statistics{% endif %}');
           };
           const observer = new MutationObserver(updateStatsLink);
           observer.observe(container, { childList: true, subtree: true, attributes: true, attributeFilter: ['href'] });

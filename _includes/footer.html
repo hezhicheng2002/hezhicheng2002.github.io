@@ -1,7 +1,7 @@
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name }}
+  &copy; {{ site.time | date: '%Y' }} {% if page.lang == 'zh-CN' %}{{ site.data.zh.author.name }}{% else %}{{ site.name }}{% endif %}
   <span aria-hidden="true">&middot;</span>
   <a href="https://github.com/{{ site.author.github }}">GitHub</a>
   <span aria-hidden="true">&middot;</span>
-  <a href="mailto:{{ site.author.email }}">Email</a>
+  <a href="mailto:{{ site.author.email }}">{% if page.lang == 'zh-CN' %}邮箱{% else %}Email{% endif %}</a>
 </div>

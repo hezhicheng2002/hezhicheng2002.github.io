@@ -1,4 +1,21 @@
 {% include base_path %}
+{% assign archive_locale = page.lang | default: site.locale %}
+{% assign published_label = 'Published in' %}
+{% assign citation_label = 'Recommended citation:' %}
+{% assign paper_label = 'Download Paper' %}
+{% assign slides_label = 'Download Slides' %}
+{% assign more_label = 'Read more' %}
+{% assign archive_excerpt = post.excerpt %}
+{% assign archive_citation = post.citation %}
+{% if page.lang == 'zh-CN' %}
+  {% assign published_label = '发表信息：' %}
+  {% assign citation_label = '参考引用：' %}
+  {% assign paper_label = '查看论文' %}
+  {% assign slides_label = '查看演示文稿' %}
+  {% assign more_label = '阅读更多' %}
+  {% assign archive_excerpt = site.data.zh.publication_excerpts[post.permalink] | default: post.excerpt %}
+  {% assign archive_citation = post.citation | replace: 'Co-first author', '共同第一作者' %}
+{% endif %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -41,29 +58,29 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{{ published_label }} <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[archive_locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ archive_excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ archive_excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> {{ more_label }}</a></strong></p></p>
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>{{ citation_label }} {{ archive_citation }}<br /><a href="{{ post.paperurl }}">{{ paper_label }}</a> | <a href="{{ post.slidesurl }}">{{ slides_label }}</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p>{{ citation_label }} {{ archive_citation }}<br /><a href="{{ post.paperurl }}">{{ paper_label }}</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>{{ citation_label }} {{ archive_citation }}<br /><a href="{{ post.slidesurl }}">{{ slides_label }}</a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+      <p>{{ citation_label }} {{ archive_citation }}</p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p><a href=" {{ post.paperurl }} ">{{ paper_label }}</a></p>
     {% elsif post.slidesurl %}
-      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+      <p><a href="{{ post.slidesurl }}">{{ slides_label }}</a></p>
     {% endif %}
 
   </article>

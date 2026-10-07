@@ -3,6 +3,7 @@ permalink: /
 layout: single
 title: "Hi, I'm Zhicheng He（何智成）"
 author_profile: true
+chinese_url: /zh/
 redirect_from:
   - /about/
   - /about.html
@@ -39,22 +40,4 @@ News
 
 Selected Publications
 ------
-{% assign selected_publication_urls = "/publication/2026-02-16-medvar|/publication/2026-01-01-dinov3-fd|/publication/2026-09-09-teethgnn" | split: "|" %}
-{% assign publications = site.publications %}
-{% if publications and publications.size > 0 %}
-<ul>
-{% for selected_url in selected_publication_urls %}
-  {% assign item = publications | where: 'permalink', selected_url | first %}
-  {% unless item %}{% continue %}{% endunless %}
-  <li>
-    <strong>{{ item.title }}</strong><br>
-    {{ item.citation }}<br>
-    {% if item.paperurl %}<a href="{{ item.paperurl }}">Paper</a>{% endif %}
-    {% if item.slidesurl %} | <a href="{{ item.slidesurl }}">Slides</a>{% endif %}
-  </li>
-{% endfor %}
-</ul>
-<p><a href="/publications/">View all publications →</a></p>
-{% else %}
-<p>No publications yet.</p>
-{% endif %}
+{% include selected-publications.html %}
