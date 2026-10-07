@@ -36,7 +36,7 @@ def check(base):
                 html = response.read().decode("utf-8")
             page = Page(html)
             assert page.lang == lang, (route, "document language", page.lang)
-            assert page.switches == [counterpart], (route, "language switch", page.switches)
+            assert [urljoin(base, link) for link in page.switches] == [urljoin(base, counterpart)], (route, "language switch", page.switches)
             assert page.alternates.get("en") == urljoin(base, english), (route, "English alternate")
             assert page.alternates.get("zh-CN") == urljoin(base, chinese), (route, "Chinese alternate")
             assert "mailto:zhichenghe@u.nus.edu" in page.links, (route, "contact email")
