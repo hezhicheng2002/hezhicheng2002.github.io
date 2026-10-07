@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Master of Engineering (MEng) student in the Department of Biomedical Engineering at the National University of Singapore, working in the Intelligent Medical Vision & Robotics (iMVR) Lab under the supervision of [Dr. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
+I am a second-year Master of Engineering (MEng) student in the Department of Biomedical Engineering at the National University of Singapore, working in the [Intelligent Medical Vision & Robotics (iMVR) Lab](https://github.com/jinlab-imvr) under the supervision of [Dr. Yueming Jin](https://yuemingjin.github.io/). I completed my undergraduate degree in Computer Science at Beijing Jiaotong University. My research interests include medical image analysis and multi-modal large language models.
 
 [View my CV →](/cv/)
 
